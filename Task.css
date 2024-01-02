@@ -1,0 +1,65 @@
+body{
+    padding-left: 300px;
+    padding-top: 5px;
+    font-size: 18px;
+
+}
+.completed {
+text-decoration: line-through;
+
+}
+.remove {
+background-color: rgb(154, 0, 8);
+color: white;
+width: 80px;
+height: 30px;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 8px;
+}
+.textInputField{
+height: 25px;
+width: 450px;
+font-size: 15px;
+margin-right: 50px;
+}
+.textAreaInputField{
+width: 500px; 
+height: 100px
+}
+.addButton{
+    background-color: rgb(222, 122, 35);
+    width: 90px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.space {
+    margin-bottom: 10px;
+}
+.taskStyle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.descriptionText{
+    margin-top: 8px;
+    max-width: 500px;
+    overflow-wrap: break-word;
+}
+.dateInputField{
+    width: 130px;
+    height: 28px
+}
+.dateStyle{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/*.grid{
+    display: grid;
+    grid-template-columns: 200px 150px 200px;
+}
+*/
